@@ -1,7 +1,7 @@
 FROM php:8.1-fpm
 
 # set your user name, ex: user=bernardo
-ARG user=carlos
+ARG user=richard
 ARG uid=1000
 
 # Install system dependencies
@@ -13,6 +13,9 @@ RUN apt-get update && apt-get install -y \
     libxml2-dev \
     zip \
     unzip
+
+RUN apt-get -y install nodejs
+RUN apt-get -y install npm
 
 # Clear cache
 RUN apt-get clean && rm -rf /var/lib/apt/lists/*
