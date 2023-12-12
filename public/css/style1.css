@@ -6,7 +6,7 @@
 .header{
     min-height: 100vh;
     width: 100%;
-    background-image: linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)),url(img/niver.jpg);
+    background-image: linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)),url(../img/niver.png);
     background-size: center;
     background-size: cover;
     position: relative;
@@ -34,7 +34,7 @@ nav img{
 .nav-link ul li a{
     color: #fff;
     text-decoration: none;
-    font-size: 13px;
+    font-size: 17px;
 
 }
 .nav-link ul li::after{
@@ -63,7 +63,7 @@ nav img{
 }
 .text-box p{
     margin: 10 px 0 40px;
-    font-size: 14px;
+    font-size: 15px;
     color: #fff;
 }
 .hero-btn {
@@ -72,7 +72,7 @@ nav img{
     color: #fff;
     border: 1px solid #fff;
     padding: 12px 34px;
-    font-size: 13px;
+    font-size: 15px;
     background: transparent;
     position: relative;
     cursor: pointer;
@@ -82,6 +82,21 @@ nav img{
     background: #f44336;
     transition: 1s;
 }
+
+.loginreg a{
+    color: #fff;
+    text-decoration: none;
+    font-size: 17px;
+    padding: 8px 12px;
+    position: relative;
+}
+
+.loginreg a:hover{
+    border: 1px solid solid #f44336;
+    background: #f44336;
+    transition: 1s;
+}
+
 
 @media(max-width: 700px){
     .text-box h1{
