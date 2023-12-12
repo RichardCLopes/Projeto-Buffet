@@ -53,21 +53,56 @@
         </div>
     </section>
     <section class="Pacotes">
-    <h1>Pacotes que nos oferecemos</h1>
-    <p>Pacote 1, Pacote 2, Pacote 3</p>
+    <h1>Pacotes que oferecemos</h1>
 
     <div class="row">
         <div class="pacote">
-            <h3>Pacote 1</h3>
-            <p>Soh comida</p>
+            <h3>Basic</h3>
+            <h5>Pratos Principais:</h5>
+            <p>Mini-pizza (margherita, pepperoni, frango)</p>
+            <p>Mini Hot-Dog</p>
+            <p>Nuggets de frango</p>
+            <h5>Acompanhamentos:</h5>
+            <p>Batata frita</p>
+            <p>Pipoca</p>
+            <p>Mini Salada</p>
+            <h5>Bebidas:</h5>
+            <p>Suco de fruta</p>
+            <p>Refrigerante</p>
+            <p>Água mineral</p>
         </div>
         <div class="pacote">
-            <h3>Pacote 2</h3>
-            <p>Soh bebida</p>
+            <h3>Standard</h3>
+            <h5>Pratos Principais:</h5>
+            <p>Esfirra assada</p>
+            <p>Frango a passarinho</p>
+            <p>Mini-hambúrguer artesanal</p>
+            <h5>Acompanhamentos:</h5>
+            <p>Batata rústica</p>
+            <p>Espetinho</p>
+            <p>Legumes ao molho imperial</p>
+            <h5>Bebidas:</h5>
+            <p>Suco de frutas</p>
+            <p>Refrigerante</p>
+            <p>Água mineral</p>
+            <p>Cerveja</p>
         </div>
         <div class="pacote">
-            <h3>Pacote 3</h3>
-            <p>Comida e bebida</p>
+            <h3>Premium</h3>
+            <h5>Pratos Principais:</h5>
+            <p>Salmão Grelhado</p>
+            <p>Risoto de cogumelo</p>
+            <p>Bobó de camarão</p>
+            <h5>Acompanhamentos:</h5>
+            <p>Salada de frutas exóticas</p>
+            <p>Tábua de frios</p>
+            <p>Bruschettas de tomate cereja e manjericão</p>
+            <h5>Bebidas:</h5>
+            <p>Suco de frutas</p>
+            <p>Refrigerante</p>
+            <p>Água mineral</p>
+            <p>Cerveja artesanal</p>
+            <p>Batidas variadas</p>
         </div>
     </div>
 

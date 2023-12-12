@@ -62,7 +62,7 @@ nav img{
     font-size: 62px;
 }
 .text-box p{
-    margin: 10 px 0 40px;
+    margin: 10px 0 40px;
     font-size: 15px;
     color: #fff;
 }
@@ -98,6 +98,7 @@ nav img{
 }
 
 
+
 @media(max-width: 700px){
     .text-box h1{
         font-size: 20px;
@@ -122,17 +123,12 @@ nav img{
     text-align: center;
     padding-top: 100px;
 }
+
 h1{
     font-size: 36px;
     font-weight: 600;
-}
-p{
-    color: #000;
-    font-size: 14px;
-    font-weight: 300;
-    line-height: 22px;
-    padding: 10px;
-}
+} 
+
 .row{
     margin-top: 5%;
     display: flex;
@@ -147,6 +143,7 @@ p{
     box-sizing: border-box;
     transition: 0.5s;
 }
+
 h3{
     text-align: center;
     font-weight: 600;
