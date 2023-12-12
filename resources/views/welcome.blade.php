@@ -20,13 +20,13 @@
     <body class="antialiased">
         <section class="header">
         <nav>
-            <a href="index1.html"><img src="img/logo.png"></a>
+            <a href="{{ url('/') }}"><img src="img/logo.png"></a>
             <div class="nav-link">
                <ul>
-                <li><a href="index1.html">Home</a></li>
-                <li><a href="">Reservas</a></li>
+                <li><a href="{{ url('/') }}">Home</a></li>
+                <li><a href="{{ url('/') }}">Reservas</a></li>
                 <li><a href="{{ url('/sobre') }}">Sobre nós</a></li>
-                <li><a href="Contatos.html">Contatos</a></li>
+                <li><a href="{{ url('/contatos') }}">Contato</a></li>
                 
                 </ul>
             </div>
@@ -44,7 +44,7 @@
                             @endauth
                            </div>
                      @endif
-                    </div>
+            </div>
         </nav>
         <div class="text-box">
             <h1>Gosto de Festança Buffet</h1>
